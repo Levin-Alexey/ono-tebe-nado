@@ -1,10 +1,17 @@
-header {
+header{
+    margin: auto;
+    width: 1440px;
+
+
+    background-color: bisque;
+}
+.header_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 293px;
     align-content: center;
     justify-content: space-between;
-    max-width: 1340px;
+    width: 1340px;
     margin: 0 auto;
 
     background-color: aliceblue; /*Удалить*/
