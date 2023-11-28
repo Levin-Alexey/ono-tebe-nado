@@ -193,7 +193,7 @@ address {
     margin-bottom: 27px;
 }
 
-.lots_list{
+.lots_list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -204,7 +204,7 @@ address {
     margin-left: 40px;
     margin-top: 30px;
 }
-.container_lot{
+.container_lot {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -217,7 +217,7 @@ address {
     height: 450px;
 
 }
-.card_title{
+.card_title {
     display: block;
     width: 350px;
     font-family: Raleway, sans-serif;
