@@ -197,7 +197,9 @@ address {
     bottom: 0;
     background-color: rgba(0, 0, 0, .5);
 }
-
+main {
+    background-color: #F5F5F5;
+}
 .lots_container {
     max-width: 1340px;
     margin: 0 auto;
