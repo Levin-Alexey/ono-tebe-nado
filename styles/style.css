@@ -97,6 +97,7 @@ address {
 
 }
 
+
 .cover_title {
 
     display: block;
@@ -178,8 +179,25 @@ address {
     margin: 180px auto 0;
     max-width: 1440px;
     background-color: #F5F5F5;
-
 }
+
+.lot_list_item{
+    position: relative;
+}
+.container_link:before {
+    content: '';
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
 .lots_container {
     max-width: 1340px;
     margin: 0 auto;
@@ -206,6 +224,7 @@ address {
 }
 .container_lot {
     display: flex;
+
     flex-direction: column;
     justify-content: space-evenly;
     gap: 25%;
@@ -219,6 +238,8 @@ address {
 }
 .card_title {
     display: block;
+    position: relative;
+    z-index: 4;
     width: 350px;
     font-family: Raleway, sans-serif;
     font-size: 22px;
@@ -228,6 +249,8 @@ address {
 }
 
 .card_description {
+    position: relative;
+    z-index: 4;
     display: block;
     width: 350px;
     font-family: Raleway, sans-serif;
