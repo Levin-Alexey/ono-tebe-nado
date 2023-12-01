@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     max-width: 1340px;
     margin: 0 auto;
+
     background-color: #F5F5F5;
 }
 
@@ -79,8 +80,8 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
-    padding-top: 9%;
-    padding-bottom: 3%;
+    padding-top: 11.5%;
+
 }
 
 .cover:before {
@@ -93,7 +94,7 @@ address {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
 
 }
 
@@ -108,9 +109,11 @@ address {
     font-size: 100px;
     margin-left: 3%;
     margin-right: 4%;
+
 }
 
 .title_element1 {
+
     letter-spacing: .4em;
     display: block;
     text-align: left;
@@ -124,14 +127,15 @@ address {
 .title_element2 {
     position: relative;
     display: block;
-    margin-top: 1%;
-    margin-right: 0.9%;
+    margin-top: 0.9%;
+    margin-right: 0.8%;
     text-align: center;
-    letter-spacing: .4em;
+    letter-spacing: .35em;
 }
 
 .title_element2__mod {
-    margin-left: 0.5%;
+    display: inline-block;
+    margin-left: 2%;
 }
 
 .title_element3 {
@@ -140,6 +144,7 @@ address {
     display: block;
     text-align: right;
     letter-spacing: .4em;
+
 }
 
 .title_element3::first-letter {
@@ -153,8 +158,10 @@ address {
     align-items: center;
     position: relative;
     z-index: 1;
-    margin-top: 8%;
+    margin-top: 8.5%;
     margin-right: 3.5%;
+    padding-bottom: 3.5%;
+
 }
 
 .cover_description__text {
@@ -195,9 +202,11 @@ address {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
 }
 main {
+    margin: 0 auto;
+    max-width: 1440px;
     background-color: #F5F5F5;
 }
 .lots_container {
@@ -217,6 +226,7 @@ main {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    gap: 22px;
 }
 .lots_link {
     font-family: Raleway, sans-serif;
@@ -229,13 +239,14 @@ main {
 
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 25%;
+    gap: 33%;
     align-items: center;
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 430px;
     height: 450px;
+
 
 }
 .card_title {
