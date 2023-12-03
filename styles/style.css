@@ -312,10 +312,10 @@ main {
 
 
 .about {
-    margin: 130px 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
+    margin: 12.5% 50px 130px;
 }
 
 .about__logo {
@@ -353,9 +353,7 @@ main {
 }
 
 
-.about {
-    margin-top: 12.5%;
-}
+
 
 footer {
     margin: 0 auto;
