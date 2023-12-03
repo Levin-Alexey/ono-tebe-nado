@@ -187,9 +187,7 @@ address {
     background-color: #F5F5F5;
 }
 
-.lot_list_item {
-    position: relative;
-}
+
 
 .container_link:before {
     content: '';
@@ -244,6 +242,7 @@ main {
     background-size: 100%;
     width: 430px;
     height: 450px;
+    position: relative;
 }
 
 .lot_list_item2 {
@@ -261,9 +260,7 @@ main {
     gap: 200px;
 }
 
-.container_lot2 {
-    gap: 30px;
-}
+
 
 .container_lot3 {
     gap: 75px;
@@ -310,10 +307,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.card_title2 {
-
+    gap: 30px;
 }
 
 
