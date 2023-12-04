@@ -65,6 +65,9 @@
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cover {
@@ -378,8 +381,4 @@
 .footer_social-icon {
     object-fit: cover;
 }
-.address {
-    width: 240px;
-    display: flex;
-    flex-direction: column;
-}
+
